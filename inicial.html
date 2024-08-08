@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODASU</title>
+    <link rel="stylesheet" href="css/stInicial.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap">
+
+</head>
+<body>
+    <header>
+        <div class> <a class="logo" href="#">ODASU</a></div>
+
+        <div id="divBusca">
+            <img class="iconPesquisar" src="img/iconPesquisar.png" alt=""/>
+            <input type="text" id="txtBusca" placeholder="O que está procurando?"/>
+          </div>
+
+        <div class="user-info">
+            <div>
+                <div class="cart-icon"> <a href="entrar.html"><img id="wCadas" src="img/User.png" alt=""></a></div>
+            </div>
+            <div class="cart-icon"> <a href=""><img class="chat" src="img/iconChat.png" alt=""></a></div>
+        </div>
+    </header>
+    <nav>
+        <ul class="center">
+            <li><a class="fonte" href="#">Equipamentos</a></li>
+            <li><a class="fonte" href="#">Rosto</a></li>
+            <li><a class="fonte" href="#">Maquiagem</a></li>
+            <li><a class="fonte" href="#">Perfumaria</a></li>
+            <li><a class="fonte" href="#">Cabelo</a></li>
+            <li><a class="fonte" href="#">Unha</a></li>
+        </ul>
+    </nav>
+    <section class="categories">
+        <div class="category"></div>
+        <div class="category"></div>
+        <div class="category"></div>
+        <div class="category"></div>
+        <div class="category"></div>
+        <div class="category"></div>
+    </section>
+    <section class="banner"></section>
+    <h2>Destaques</h2>
+
+    <section class="destaques">   
+        <div class="products">
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+            <div class="product"></div>
+        </div>
+    </section>
+
+
+
+
+    <br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>Odasu é o lugar que intermedia a venda e compra focado em equipamentos e produtos de salões de beleza.</p>
+                <button class="contact-button">Fale Conosco</button>
+            </div>
+            <div class="footer-bottom">
+                <p>O uso deste aplicativo está sujeito aos termos e condições do Termo de Uso e Política de privacidade.</p>
+                <p>© Odasu. Todos os direitos reservados.</p>
+            </div>
+            <button class="back-to-top" onclick="scrollToTop()">
+                <img src="img/up.png" alt="Voltar ao Topo">
+            </button>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

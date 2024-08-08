@@ -1,0 +1,286 @@
+body {
+    font-family: 'ABeeZee', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3a563a;
+    color: white;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "MuseoModerno", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#divBusca{
+    background-color:#ffffff;
+    padding: 5px;
+    border-radius:10px;
+    width: 500px;
+    height:32px;
+    display: flex;
+}
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    font-size:14px;
+    border:none;
+    height:32px;
+    width: 400px;
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+  }
+  
+  
+  #divBusca img{
+    float:left;
+  }
+
+
+.iconPesquisar{
+    width: 7%;
+}
+
+.Pesquisar {
+   
+    margin-left: -200px;
+    position: relative;
+    z-index: 99;
+    top: 300px;
+}
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info .user-icon, .user-info .cart-icon {
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.chat {
+    width: 70%;
+}
+
+#wCadas {
+    width: 50%;
+    display: flex;
+}
+
+.fonte{
+    color: #979797;
+    padding: 0px 50px;
+    display: flex;
+
+    
+}
+
+nav {
+    background-color: #ffffff;
+    color: rgb(157, 149, 149);
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+
+}
+
+.cadastro{
+    padding: 10px 50px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.category {
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    display: flex;
+    
+}
+
+.banner {
+    height: 300px;
+    background-color: #e0e0e0;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #e0e0e0;
+    padding: 20px 0;
+    position: relative;
+}
+
+
+
+.destaques.products {
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr);
+    gap: 20px; */
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.product {
+    background-color: #cb5151;
+    width: 250px;
+    height: 500px;
+    margin: 10px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3a563a;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.back-to-top img {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    .categories{
+        flex-wrap:wrap ;
+
+        /* flex-direction: column; */
+        padding: 50px;
+
+    }
+    .category{
+        margin: 5px;
+
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .cart-icon{
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .logo{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .center{
+        flex-direction: column;
+    }
+    .fonte{
+        padding: 10px;
+    }
+}
+
