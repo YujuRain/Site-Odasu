@@ -89,6 +89,13 @@ header {
     
 }
 
+#produtos {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #acacac;
+
+}
+
 nav {
     background-color: #ffffff;
     color: rgb(157, 149, 149);
@@ -179,11 +186,21 @@ footer {
 }
 
 .product {
-    background-color: #a9a2a2;
+    background-color: #ffffff;
     width: 300px;
-    height: 500px;
+    height: 400px;
     margin: 20px;
-    
+}
+
+.f{
+    font-family: 'ABeeZee', Arial, sans-serif;
+    padding: 10px;
+
+}
+
+.preco{
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 .footer-container {
