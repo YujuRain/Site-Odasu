@@ -156,11 +156,6 @@ h2 {
     text-align: center;
 }
 
-
-
-
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -177,21 +172,18 @@ footer {
 
 
 
-.destaques.products {
-    /* display: grid; */
-    /* grid-template-columns: repeat(4, 1fr);
-    gap: 20px; */
+.products {
     display: flex;
-    flex-direction: row;
-    
-    
+    justify-content: center;
+
 }
 
 .product {
-    background-color: #cb5151;
-    width: 250px;
+    background-color: #a9a2a2;
+    width: 300px;
     height: 500px;
-    margin: 10px;
+    margin: 20px;
+    
 }
 
 .footer-container {
@@ -262,9 +254,10 @@ footer {
 }
 
 
-@media only screen and (min-width: 600px) {
-    .cart-icon{
-        flex-direction: column;
+@media only screen and (min-width: 200px) {
+    .products{
+        flex-wrap:wrap ;
+
     }
 }
 
