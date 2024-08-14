@@ -142,6 +142,7 @@ nav ul li a {
     justify-content: space-around;
     padding: 20px 0;
     background-color: #ffffff;
+    padding-bottom: 50px;
 }
 
 .category {
@@ -153,10 +154,23 @@ nav ul li a {
     
 }
 
-.banner {
-    height: 300px;
-    background-color: #e0e0e0;
+.tim {
+    border-radius: 150px;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-color: #C0C0C0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.071);
 }
+
 
 h2 {
     padding: 20px;
