@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="cabeca">
         <div class> <a class="logo" href="#">ODASU</a></div>
 
         <div id="divBusca">
@@ -29,14 +29,21 @@
         </div>
     </header>
     <nav>
-        <ul class="center">
-            <li><a class="fonte" href="#">Equipamentos</a></li>
-            <li><a class="fonte" href="#">Rosto</a></li>
-            <li><a class="fonte" href="#">Maquiagem</a></li>
-            <li><a class="fonte" href="#">Perfumaria</a></li>
-            <li><a class="fonte" href="#">Cabelo</a></li>
-            <li><a class="fonte" href="#">Unha</a></li>
-        </ul>
+        <nav>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Equipamentos</a></li>
+                <li><a href="#">Rosto</a></li>
+                <li><a href="#">Maquiagem</a></li>
+                <li><a href="#">Perfumaria</a></li>
+                <li><a href="#">Cabelo</a></li>
+                <li><a href="#">Unha</a></li>
+            </ul>
+        </nav>
     </nav>
     <section class="categories">
         <div class="category"><img class="tim" src="/img/belo.png" alt=""></div>
@@ -50,7 +57,7 @@
     <div class="banner">
         <img class="imgbanner" src="img/AAAAAAAA.png" alt="">
     </div>
-    
+
     <h2>Destaques</h2>
 
     <section class="destaques">
@@ -148,7 +155,11 @@
         function scrollToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
+        document.querySelector('.menu-hamburguer').addEventListener('click', function () {
+            document.querySelector('.menu').classList.toggle('show');
+        });
     </script>
+
 </body>
 
 </html>

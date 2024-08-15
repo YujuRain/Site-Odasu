@@ -74,11 +74,13 @@ header {
 
 .chat {
     width: 70%;
+    padding-top: 10px;
 }
 
 #wCadas {
     width: 50%;
     display: flex;
+    padding-top: 10px;
 }
 
 .fonte{
@@ -98,9 +100,9 @@ header {
 
 nav {
     background-color: #ffffff;
-    color: rgb(157, 149, 149);
+    color: rgb(0, 0, 0);
     padding: 10px;
-    justify-content: center;
+    font-family: 'ABeeZee', Arial, sans-serif;
     
 }
 
@@ -120,22 +122,6 @@ nav {
     cursor: pointer;
 }
 
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
 
 .categories {
     display: flex;
@@ -217,6 +203,10 @@ footer {
     padding-left: 10px;
 }
 
+.fot{
+    display: flex;
+}
+
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -270,6 +260,67 @@ footer {
     height: 30px;
 }
 
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu-hamburguer {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    padding-bottom: 10px;
+}
+
+.menu-hamburguer span {
+    background-color: rgb(19, 19, 19);
+    height: 3px;
+    width: 28px;
+    display: block;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .menu-hamburguer {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu li {
+        margin: 0;
+    }
+
+    .menu li a {
+        padding: 15px 20px;
+        border-top: 1px solid #444;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .categories{
         flex-wrap:wrap ;
@@ -293,8 +344,8 @@ footer {
 }
 
 
-@media only screen and (max-width: 1200px) {
-    .logo{
+@media only screen and (max-width: 1000px) {
+    .cabeca{
         flex-direction: column;
     }
 }
@@ -305,6 +356,19 @@ footer {
     }
     .fonte{
         padding: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1920px) {
+    .banner{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .fot{
+        flex-direction: column;
     }
 }
 
