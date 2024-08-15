@@ -21,12 +21,12 @@ header {
     color: white;
 }
 
-#divBusca{
+#diviBusca{
     background-color:#ffffff;
     padding: 5px;
     border-radius:10px;
     width: 500px;
-    height:32px;
+    height:px;
     display: flex;
 }
   
@@ -95,7 +95,11 @@ header {
     width: 100%;
     padding: 10px;
     box-shadow: 5px 10px 8px #acacac;
+    transition: transform 0.3s ease;
+}
 
+#produtos:hover {
+    transform: scale(1.05);
 }
 
 nav {
@@ -156,6 +160,18 @@ nav {
     background-color: #e6e6e6;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.071);
 }
+
+/* Personalizando as setas de navegação */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #797979; /* Cor de fundo das setas */
+    border-radius: 50%; /* Deixa as setas arredondadas */
+    width: 50x;
+    height: 32px;
+}
+
+
+
 
 
 h2 {
@@ -371,4 +387,3 @@ footer {
         flex-direction: column;
     }
 }
-
