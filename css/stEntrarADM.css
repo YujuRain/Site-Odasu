@@ -88,7 +88,7 @@ body {
 }
 
 .login-container button.login-button:hover {
-    background-color: #218838;
+    background-color: #628462;
 }
 
 .login-container button.register {
@@ -96,7 +96,7 @@ body {
 }
 
 .login-container button.register:hover {
-    background-color: #218838;
+    background-color: #628462;
 }
 
 /* Estilo do separador */
