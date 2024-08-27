@@ -80,6 +80,14 @@
     display: flex;
 }
 
+.btnComprar:hover{ 
+    background-color: #cfac2c;
+    width: 185px;
+    cursor:pointer;
+
+
+}
+
 .btnFavoritar {
     background-color: #D8B32D;
     margin: 0px auto 0px auto;
