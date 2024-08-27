@@ -187,7 +187,8 @@ body {
 footer {
     background-color: #e0e0e0;
     padding: 20px 0;
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 
 

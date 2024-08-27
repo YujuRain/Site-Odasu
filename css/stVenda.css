@@ -1,8 +1,8 @@
 .divProduto {
     display: flex;
     /* margin-bottom: 300px; */
-    margin-top: 100px;
-    margin-bottom: 200px;
+    /* margin-top: 100px;
+    margin-bottom: 200px; */
 
 }
 
@@ -127,6 +127,14 @@
 
     }
 
+}
+
+footer {
+    background-color: #e0e0e0;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 1145px) {
