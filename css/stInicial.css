@@ -1,8 +1,3 @@
-body {
-    font-family: 'ABeeZee', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 header {
     display: flex;
@@ -161,16 +156,13 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.071);
 }
 
-/* Personalizando as setas de navegação */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #797979; /* Cor de fundo das setas */
-    border-radius: 50%; /* Deixa as setas arredondadas */
+    background-color: #797979; 
+    border-radius: 50%; 
     width: 50x;
     height: 32px;
 }
-
-
 
 
 
@@ -179,13 +171,6 @@ h2 {
     text-align: center;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
-}
 
 footer {
     background-color: #e0e0e0;
@@ -311,7 +296,6 @@ footer {
     display: block;
 }
 
-/* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
     .menu-hamburguer {
         display: flex;
