@@ -160,6 +160,26 @@ header {
     text-align: center;
   }
 
+.linked{
+    width: 20%;
+
+
+}
+
+
+.maisa {
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px ;
+    
+}
+
+.aaa {
+    text-align: center;
+}
+
 h2 {
     padding: 20px;
     text-align: center;
@@ -258,7 +278,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1000px) {
     .card{
         min-width: 300px;
         margin: 10px;
@@ -280,8 +300,37 @@ footer {
     .central{
         min-width: 300px;
     }
+
+    
 }
 
+
+
+
+@media only screen and (min-width: 500px) {
+    .linke {
+        margin-left: 60px;
+    }
+    
+    #linkeJ{
+        margin-left: 80px;
+    }
+    
+    #linkeMa {
+        margin-left: 75px;
+    }
+    
+    #linkeH {
+        margin-left: 85px;
+    }
+    
+    #linkeG {
+        margin-left: 50px;
+    }
+
+    
+    
+}
 
 
 @media only screen and (max-width: 1000px) {
