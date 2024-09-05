@@ -165,7 +165,10 @@ nav {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> de7f834bd6d80825fd4ddb8b88080a8fa624db66
 h2 {
     padding: 20px;
     text-align: center;
@@ -175,7 +178,8 @@ h2 {
 footer {
     background-color: #e0e0e0;
     padding: 20px 0;
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 
 
@@ -251,7 +255,7 @@ footer {
     bottom: 20px;
     right: 20px;
     background-color: #3a563a;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
     z-index: 1000;
 }
