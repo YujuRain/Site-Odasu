@@ -160,25 +160,46 @@ header {
     text-align: center;
   }
 
+
 .linked{
-    width: 20%;
-
-
+    width: 30%;
 }
-
 
 .maisa {
     justify-content: center;
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 30px ;
+    padding-left: 10px ;
     
 }
 
-.aaa {
-    text-align: center;
+#jer{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#maria{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px ;
+}
+
+#hen{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px ;
+}
+
+#gustavo{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+}
+
 
 h2 {
     padding: 20px;
@@ -278,7 +299,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 500px) {
     .card{
         min-width: 300px;
         margin: 10px;
@@ -304,33 +325,31 @@ footer {
     
 }
 
-
-
-
-@media only screen and (min-width: 500px) {
-    .linke {
-        margin-left: 60px;
+/* @media only screen and (min-width: 500px) {
+    .card{
+        min-width: 300px;
+        margin: 10px;
     }
-    
-    #linkeJ{
-        margin-left: 80px;
-    }
-    
-    #linkeMa {
-        margin-left: 75px;
-    }
-    
-    #linkeH {
-        margin-left: 85px;
-    }
-    
-    #linkeG {
-        margin-left: 50px;
+    .categories{
+        flex-wrap:wrap ;
     }
 
+    .categorie{
+        flex-wrap:wrap;
+        margin-top: -70px;
+    }
+
+    .tim{
+        
+        min-width: 150px;
+    }
+
+    .central{
+        min-width: 300px;
+    }
+
     
-    
-}
+} */
 
 
 @media only screen and (max-width: 1000px) {
